@@ -69,7 +69,7 @@ foreach variant : get_option('variants')
   gresource_xml_array = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<gresources>',
-    '<gresource prefix="/org/gnome/arc-theme">'
+    '<gresource prefix="/org/gnome/ayu-theme">'
   ]
 
   foreach asset : gtk4_asset_names
@@ -126,7 +126,7 @@ foreach variant : get_option('variants')
 
   gtk4_css = configure_file(
     capture : true,
-    command : ['echo', '@import url("resource:///org/gnome/arc-theme/' + output_css + '");'],
+    command : ['echo', '@import url("resource:///org/gnome/ayu-theme/' + output_css + '");'],
     output : 'gtk-' + variant + '.css'
   )
 
@@ -139,7 +139,7 @@ foreach variant : get_option('variants')
   #FIXME gtk-dark.css gets overwritten for subsequent variants, resulting in build warnings
   gtk4_dark_css = configure_file(
     capture : true,
-    command : ['echo', '@import url("resource:///org/gnome/arc-theme/' + output_css_dark + '");'],
+    command : ['echo', '@import url("resource:///org/gnome/ayu-theme/' + output_css_dark + '");'],
     output : 'gtk-dark.css',
     install : true,
     install_dir : prefix / install_dir.get(variant) / common_dirs.get('gtk4')

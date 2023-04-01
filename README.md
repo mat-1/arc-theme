@@ -1,32 +1,32 @@
-# Arc Theme
+# Ayu Theme
 
-Arc is a flat theme with transparent elements for GTK 3, GTK 2 and various desktop shells, window managers and applications. It's well suited for GTK based desktop environments such as GNOME, Cinnamon, Xfce, Unity, MATE, Budgie etc.
+Ayu is a flat theme with transparent elements for GTK 3, GTK 2 and various desktop shells, window managers and applications. It's well suited for GTK based desktop environments such as GNOME, Cinnamon, Xfce, Unity, MATE, Budgie etc.
 
 The theme was originally designed and developed by [horst3180](https://github.com/horst3180/arc-theme), but the project has been unmaintained since May 2017.
 
 This fork aims to keep the theme updated with new toolkit and desktop environment versions, resolve pre-existing issues, and improve and polish the theme while preserving the original visual design.
 
-## Arc is available in four variants
+## Ayu is available in four variants
 
-##### Arc
+##### Ayu
 
-![A screenshot of the Arc theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-prv.png)
+![A screenshot of the Ayu theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-prv.png)
 
-##### Arc-Darker
+##### Ayu-Darker
 
-![A screenshot of the Arc-Darker theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-darker-prv.png)
+![A screenshot of the Ayu-Darker theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-darker-prv.png)
 
-##### Arc-Dark
+##### Ayu-Dark
 
-![A screenshot of the Arc-Dark theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-dark-prv.png)
+![A screenshot of the Ayu-Dark theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-dark-prv.png)
 
-##### Arc-Lighter
+##### Ayu-Lighter
 
-![A screenshot of the Arc-Lighter theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-lighter-prv.png)
+![A screenshot of the Ayu-Lighter theme](https://raw.githubusercontent.com/jnsh/arc-theme/master/.github/arc-lighter-prv.png)
 
 ## Supported toolkits and desktops
 
-Arc comes with themes for the following:
+Ayu comes with themes for the following:
 * GTK 2
 * GTK 3
 * GTK 4
@@ -41,7 +41,7 @@ Arc comes with themes for the following:
 
 #### Packages
 
-Arc Theme is available from the official software package repositories for many common Linux distributions and FOSS operating systems. Installing the theme by using the package manager of your operating system should be the preferred method in most cases.
+Ayu Theme is available from the official software package repositories for many common Linux distributions and FOSS operating systems. Installing the theme by using the package manager of your operating system should be the preferred method in most cases.
 
 See [the wiki](https://github.com/jnsh/arc-theme/wiki/Packages) for non-exhaustive list of distribution packages, and some additional packages.
 
@@ -61,9 +61,9 @@ If you'd like to contribute to the project, open an pull request, or an issue fo
 
 ## License
 
-Arc is available under the terms of the GPL-3.0. See [COPYING](https://github.com/jnsh/arc-theme/blob/master/COPYING) for details.
+Ayu is available under the terms of the GPL-3.0. See [COPYING](https://github.com/jnsh/arc-theme/blob/master/COPYING) for details.
 
 ## Full Preview
 
-![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
-<sub>Screenshot Details: Icons: [Arc](https://github.com/horst3180/arc-icon-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
+![A full screenshot of the Ayu theme](http://i.imgur.com/tD1OBQ3.png)
+<sub>Screenshot Details: Icons: [Ayu](https://github.com/horst3180/arc-icon-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>

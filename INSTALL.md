@@ -1,4 +1,4 @@
-# Installing Arc from the source
+# Installing Ayu from the source
 
 ## Getting the source
 
@@ -39,7 +39,7 @@ For the GTK 2 theme to function properly, install the following:
 
 ## Building and installation
 
-Arc-theme uses [Meson](https://mesonbuild.com/) build system, refer to its documentation for further information about the build process.
+Ayu-theme uses [Meson](https://mesonbuild.com/) build system, refer to its documentation for further information about the build process.
 
 The following instructions should work for most common cases.
 
@@ -47,9 +47,9 @@ The following instructions should work for most common cases.
 
 First you need to setup and configure a new build directory (e.g. `build/`) from the cloned/extracted source code directory.
 
-You should at least configure the build prefix with `--prefix=` option, usually `/usr` for system wide installation, or `$HOME/.local` for installing for your user only. Additionally you may set any Arc-theme specific [build options](#build-options) according to your needs and preferences, with `-Doption=value` command line argument.
+You should at least configure the build prefix with `--prefix=` option, usually `/usr` for system wide installation, or `$HOME/.local` for installing for your user only. Additionally you may set any Ayu-theme specific [build options](#build-options) according to your needs and preferences, with `-Doption=value` command line argument.
 
-For example, configure to install in your home directory, and to only build the Arc-Darker variant with:
+For example, configure to install in your home directory, and to only build the Ayu-Darker variant with:
 
     meson setup --prefix=$HOME/.local -Dvariants=darker build/
 
@@ -65,10 +65,10 @@ Build and install the theme according to your configuration by running the follo
 
 #### Note about installation in user's home directory
 
-Some themes (at least GTK 2) aren't loaded from `~/.local/share/themes/`. You can work around this e.g. by symlinking the Arc theme directories in `~/.local/share/themes/` to `~/.themes/` with following commands:
+Some themes (at least GTK 2) aren't loaded from `~/.local/share/themes/`. You can work around this e.g. by symlinking the Ayu theme directories in `~/.local/share/themes/` to `~/.themes/` with following commands:
 
     mkdir -p ~/.themes/
-    for d in Arc{,-Dark,-Darker,-Lighter}{,-solid}; do
+    for d in Ayu{,-Dark,-Darker,-Lighter}{,-solid}; do
       [ -d ~/.local/share/themes/$d ] && ln -s ~/.local/share/themes/$d ~/.themes/;
     done
 
@@ -86,7 +86,7 @@ Otherwise the build system tries to determine correct versions using the followi
 
 ## Build options
 
-Arc-theme specific build options can be set or changed with `meson configure -Doption=value <build_directory>` e.g.
+Ayu-theme specific build options can be set or changed with `meson configure -Doption=value <build_directory>` e.g.
 
     meson configure -Dthemes=cinnamon,plank,xfwm -Dtransparency=false -Dcinnamon_version=5.0 build/
 
@@ -103,4 +103,4 @@ Option | Default value | Description
 
 Manually remove the theme directories from your install location, e.g.
 
-    rm -rf ~/.local/share/themes/Arc{,-Dark,-Darker,-Lighter}{,-solid}
+    rm -rf ~/.local/share/themes/Ayu{,-Dark,-Darker,-Lighter}{,-solid}

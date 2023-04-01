@@ -1,5 +1,5 @@
 project(
-  'arc-theme',
+  'ayu-theme',
   version : '20221218',
   meson_version: '>= 0.53.0',
   license : 'GPL3',
@@ -11,10 +11,10 @@ project(
 fs = import('fs')
 
 variant_name = {
-  'light' : (get_option('transparency') ? 'Arc' : 'Arc-solid'),
-  'darker' : (get_option('transparency') ? 'Arc-Darker' : 'Arc-Darker-solid'),
-  'dark' : (get_option('transparency') ? 'Arc-Dark' : 'Arc-Dark-solid'),
-  'lighter' : (get_option('transparency') ? 'Arc-Lighter' : 'Arc-Lighter-solid'),
+  'light' : (get_option('transparency') ? 'Ayu' : 'Ayu-solid'),
+  'darker' : (get_option('transparency') ? 'Ayu-Darker' : 'Ayu-Darker-solid'),
+  'dark' : (get_option('transparency') ? 'Ayu-Dark' : 'Ayu-Dark-solid'),
+  'lighter' : (get_option('transparency') ? 'Ayu-Lighter' : 'Ayu-Lighter-solid'),
 }
 
 prefix = get_option('prefix')
